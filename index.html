@@ -70,16 +70,16 @@
           </nav>
           <address>
             <ul class="mb-list">
-              
               <li>
                 <a class="mb-link mb-link-first" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a>
-                <li>
+                  >+11 (000) 111-11-11</a
+                >
+
                 <a class="mb-link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              </li>
+              >
             </ul>
           </address>
           <ul class="mb-social-ul">
@@ -187,6 +187,7 @@
           <ul class="team-list">
             <li class="team-info">
               <img
+                srcset="./images/image1.jpg 1x, ./images/image-1@2x.jpg 2x"
                 src="./images/image1.jpg"
                 alt="A man with a beard"
                 width="264"
@@ -229,6 +230,7 @@
             </li>
             <li class="team-info">
               <img
+                srcset="./images/image2.jpg 1x, ./images/image-2@2x.jpg 2x"
                 src="./images/image2.jpg"
                 alt="A man looking to the right"
                 width="264"
@@ -271,6 +273,7 @@
             </li>
             <li class="team-info">
               <img
+                srcset="./images/image3.jpg 1x, ./images/image-3@2x.jpg 2x"
                 src="./images/image3.jpg"
                 alt="A woman with a pink pullover"
                 width="264"
@@ -314,6 +317,7 @@
 
             <li class="team-info">
               <img
+                srcset="./images/image4.jpg 1x, ./images/image-4@2x.jpg 2x"
                 src="./images/image4.jpg"
                 alt="A man looking forward"
                 width="264"
@@ -364,12 +368,35 @@
           <ul class="portf-list">
             <li class="portf-element">
               <div class="image-container">
-                <img
-                  src="./images/image26.jpg"
-                  alt="App Design"
-                  class="portf-img"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/image26-com.jpg    1x,
+                      ./images/image26-com@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image26-tab.jpg    1x,
+                      ./images/image26-tab@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image26-mob.jpg    1x,
+                      ./images/image26-mob@2x.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <img
+                    src="./images/image26-mob.jpg"
+                    alt="App Design"
+                    class="portf-img"
+                    width="360"
+                  />
+                </picture>
                 <p class="image-container-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -383,12 +410,35 @@
             </li>
             <li class="portf-element">
               <div class="image-container">
-                <img
-                  src="./images/image25.jpg"
-                  alt="QR Code Payment"
-                  class="portf-img"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/image25-com.jpg    1x,
+                      ./images/image25-com@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image25-tab.jpg    1x,
+                      ./images/image25-tab@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image25-mob.jpg    1x,
+                      ./images/image25-mob@2x.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <img
+                    src="./images/image25-com.jpg"
+                    alt="QR Code Payment"
+                    class="portf-img"
+                    width="360"
+                  />
+                </picture>
                 <p class="image-container-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -402,12 +452,35 @@
             </li>
             <li class="portf-element">
               <div class="image-container">
-                <img
-                  src="./images/image24.jpg"
-                  alt="Design for laptop and phone"
-                  class="portf-img"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/image24-com.jpg    1x,
+                      ./images/image24-com@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image24-tab.jpg    1x,
+                      ./images/image24-tab@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image24-mob.jpg    1x,
+                      ./images/image24-mob@2x.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <img
+                    src="./images/image24-com.jpg"
+                    alt="Design for laptop and phone"
+                    class="portf-img"
+                    width="360"
+                  />
+                </picture>
                 <p class="image-container-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -421,12 +494,35 @@
             </li>
             <li class="portf-element">
               <div class="image-container">
-                <img
-                  src="./images/image23.jpg"
-                  alt="Taxi with navigation"
-                  class="portf-img"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/image23-com.jpg    1x,
+                      ./images/image23-com@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image23-tab.jpg    1x,
+                      ./images/image23-tab@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image23-mob.jpg    1x,
+                      ./images/image23-mob@2x.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <img
+                    src="./images/image23-com.jpg"
+                    alt="Taxi with navigation"
+                    class="portf-img"
+                    width="360"
+                  />
+                </picture>
                 <p class="image-container-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -440,12 +536,35 @@
             </li>
             <li class="portf-element">
               <div class="image-container">
-                <img
-                  src="./images/image22.jpg"
-                  alt="Futuristic Backgrounds"
-                  class="portf-img"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/image22-com.jpg    1x,
+                      ./images/image22-com@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image22-tab.jpg    1x,
+                      ./images/image22-tab@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image22-mob.jpg    1x,
+                      ./images/image22-mob@2x.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <img
+                    src="./images/image22-com.jpg"
+                    alt="Futuristic Backgrounds"
+                    class="portf-img"
+                    width="360"
+                  />
+                </picture>
                 <p class="image-container-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -459,12 +578,35 @@
             </li>
             <li class="portf-element">
               <div class="image-container">
-                <img
-                  src="./images/image21.jpg"
-                  alt="A woman holding a phone"
-                  class="portf-img"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/image21-com.jpg    1x,
+                      ./images/image21-com@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image21-tab.jpg    1x,
+                      ./images/image21-tab@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/image21-mob.jpg    1x,
+                      ./images/image21-mob@2x.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <img
+                    src="./images/image21-com.jpg"
+                    alt="A woman holding a phone"
+                    class="portf-img"
+                    width="360"
+                  />
+                </picture>
                 <p class="image-container-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -550,7 +692,7 @@
       </div>
     </footer>
 
-    <div class="backdrop " data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -624,9 +766,11 @@
                   <use href="./images/icons.svg#icon-tick"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-                <a class="modal-link" href="">Privacy Policy</a> 
-              </label>
+              <span class="modal-accept">
+                I accept the terms and conditions of the
+                <a class="modal-link" href="">Privacy Policy</a>
+              </span>
+            </label>
           </div>
           <button class="modal-send-btn" type="button">Send</button>
         </form>
